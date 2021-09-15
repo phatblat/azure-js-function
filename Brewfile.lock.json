@@ -1,0 +1,56 @@
+{
+  "entries": {
+    "brew": {
+      "azure-cli": {
+        "version": "2.28.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/azure-cli/blobs/sha256:0295b77b63ffc08f34d6dddde68e488b3c64897faa5a27218092e8b53e4c1f7f",
+              "sha256": "0295b77b63ffc08f34d6dddde68e488b3c64897faa5a27218092e8b53e4c1f7f"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/azure-cli/blobs/sha256:8f561adc361ea0ea1076cb1b62bba8f0fdcc0ad724ad4d41916669d301b0ad50",
+              "sha256": "8f561adc361ea0ea1076cb1b62bba8f0fdcc0ad724ad4d41916669d301b0ad50"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/azure-cli/blobs/sha256:c8c74eb43913176e7a3cb8f443009b619eb001c028e7fc1ebdbd27d168bcba86",
+              "sha256": "c8c74eb43913176e7a3cb8f443009b619eb001c028e7fc1ebdbd27d168bcba86"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/azure-cli/blobs/sha256:8e577086d757c6ccf880daf1a244924f05cadca4aa7e01282610018b42060c7e",
+              "sha256": "8e577086d757c6ccf880daf1a244924f05cadca4aa7e01282610018b42060c7e"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/azure-cli/blobs/sha256:aee299ce53c7922f22a03e35e1a166cd5942d9b333eb764f8f4dbbff7cb585f3",
+              "sha256": "aee299ce53c7922f22a03e35e1a166cd5942d9b333eb764f8f4dbbff7cb585f3"
+            }
+          }
+        }
+      },
+      "azure/functions/azure-functions-core-tools@3": {
+        "version": "3.0.3734",
+        "bottle": false
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "monterey": {
+        "HOMEBREW_VERSION": "3.2.12-16-g2e967f1",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "bc4219749c57d47c04ce3019197f0147f95cbbea",
+        "CLT": "13.0.0.0.1.1628499445",
+        "Xcode": "13.0",
+        "macOS": "12.0"
+      }
+    }
+  }
+}
