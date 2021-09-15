@@ -2,9 +2,18 @@
   "name": "azure-js-function",
   "version": "1.0.0",
   "description": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phatblat/azure-js-function.git"
+  },
   "scripts": {
     "start": "func start",
     "test": "echo \"No tests yet...\""
+  },
+  "jshintConfig": {
+    "esversion": 8,
+    "asi": true
   },
   "dependencies": {},
   "devDependencies": {}
