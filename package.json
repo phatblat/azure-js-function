@@ -11,6 +11,9 @@
     "start": "func start",
     "test": "echo \"No tests yet...\""
   },
+  "engines": {
+    "node": "14.17"
+  },
   "jshintConfig": {
     "esversion": 8,
     "asi": true
