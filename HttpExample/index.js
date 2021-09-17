@@ -1,5 +1,5 @@
 
-export default async function (context, req) {
+module.exports = async function (context, req) {
     "use strict"
     context.log('JavaScript HTTP trigger function processed a request.')
 
