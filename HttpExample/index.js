@@ -9,11 +9,18 @@ module.exports = async function (context, req) {
 
       // fail if incoming data is required
       if (!name || !sport) {
-
           context.res = {
               status: 400
           }
           return
+      }
+
+      if (name) {
+          context.bindings.outputDocument = JSON.stringify({
+              // create a random ID
+              id: new Date().toISOString() + Math.random().toString().substr(2,8),
+              name: name
+          })
       }
 
       // Add or change code here
