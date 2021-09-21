@@ -16,11 +16,14 @@ module.exports = async function (context, req) {
       }
 
       if (name) {
-          context.bindings.outputDocument = JSON.stringify({
+          const document = JSON.stringify({
               // create a random ID
               id: new Date().toISOString() + Math.random().toString().substr(2,8),
-              name: name
+              name: name,
+              sport: sport
           })
+          context.log(`document: ${document}`)
+          context.bindings.outputDocument = document
       }
 
       // Add or change code here
